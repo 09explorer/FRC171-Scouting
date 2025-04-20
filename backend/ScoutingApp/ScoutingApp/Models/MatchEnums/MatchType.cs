@@ -1,6 +1,9 @@
-﻿namespace ScoutingApp.Models
+﻿namespace ScoutingApp.Models.MatchEnums
 {
-    public class MatchType
+    public enum MatchType
     {
+        QUALIFICATION = 0,
+        SEMIFINAL = 1,
+        FINALS = 2
     }
 }

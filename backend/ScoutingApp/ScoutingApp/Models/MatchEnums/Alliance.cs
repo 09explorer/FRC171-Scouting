@@ -1,6 +1,8 @@
-﻿namespace ScoutingApp.Models
+﻿namespace ScoutingApp.Models.MatchEnums
 {
-    public class Alliance
+    public enum Alliance
     {
+        RED = 0 ,
+        BLUE = 1
     }
 }
